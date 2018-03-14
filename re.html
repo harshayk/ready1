@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>HTML Calculator</title>
+</head>
+<body >
+<center>
+<form name="calculator" method="POST" >
+<input type="textfield" name="ans" >
+<br />
+{{ . }}
+<br />
+<input type="reset" value="Reset"><br />
+<input type="button" value="1" style="height:50px; width:50px"onClick="document.calculator.ans.value+='1'">
+<input type="button" value="2" style="height:50px; width:50px"onClick="document.calculator.ans.value+='2'">
+<input type="button" value="3" style="height:50px; width:50px"onClick="document.calculator.ans.value+='3'"><br />
+<input type="button" value="4" style="height:50px; width:50px"onClick="document.calculator.ans.value+='4'">
+<input type="button" value="5" style="height:50px; width:50px"onClick="document.calculator.ans.value+='5'">
+<input type="button" value="6" style="height:50px; width:50px"onClick="document.calculator.ans.value+='6'"><br />
+<input type="button" value="7" style="height:50px; width:50px"onClick="document.calculator.ans.value+='7'">
+<input type="button" value="8" style="height:50px; width:50px"onClick="document.calculator.ans.value+='8'">
+<input type="button" value="9" style="height:50px; width:50px"onClick="document.calculator.ans.value+='9'"><br />
+<input type="button" value="0" style="height:50px; width:50px"onClick="document.calculator.ans.value+='0'"><br />
+<input type="button" value="-" style="height:50px; width:50px"onClick="document.calculator.ans.value+='-'">
+<input type="button" value="+" style="height:50px; width:50px"onClick="document.calculator.ans.value+='+'">
+<input type="button" value="*" style="height:50px; width:50px"onClick="document.calculator.ans.value+='*'"><br />
+<input type="button" value="/" style="height:50px; width:50px"onClick="document.calculator.ans.value+='/'">
+<input type="submit" value="=" style="height:50px; width:50px"><br />      
+</form>
+</center>
+</body>
+</html>
